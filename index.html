@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----  SEO primary Tags  ----->
+    <title>StringLab - Modern String Utility & Text Analytics Toolkit</title>
+    <meta name="title" content="StringLab - Modern String Utility & Text Analytics Toolkit">
+    <meta name="description"
+        content="Transform, analyze, and optimize your text instantly with StringLab. Powerful client-side string manipulation tools for developers, students, and everyday use.">
+    <meta name="keywords"
+        content="string lab, text analytics, string utility, developer tools, text transform, javascript, string tool">
+    <meta name="author" content="Anees Ul Rehman">
+
+    <!-----  Open Graph / Facebook / LinkdIn ----->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.github.com/Anees-ul-rehman-1">
+    <meta property="og:title" content="StringLab - Modern String Utility & Text Analytics Toolkit">
+    <meta property="og:description"
+        content="Transform, analyze, and optimize your text instantly with StringLab. Features live word, vowel, and character counters with instant operations">
+    <meta property="og:image" content="https://www.github.com/Anees-ul-rehman-1/preview-image.png">
+
+    <!-----  Twitter Preview Cards  ----->
+    <meta property="twitter:card" content="summary-large-image">
+    <meta property="twitter:title" content="StringLab - Modern String Utillity & Text Analytics Toolkit">
+    <meta property="twitter:description"
+        content="Transform, analyze, and optimize your text instantly with StringLab. Features live word, vowel, and character counters with instant operations.">
+    <meta property="twitter:image" content="https://www.github.com/Anees-ul-rehman-1/preview-image.png">
+
+    <!----- Favicon (Browser Tab Icon)  ----->
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+
+    <!----- Font Family Setup  ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-----  CSS files  ----->
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <aside class="stack">
+        <div>
+            <!-----  logo section  ----->
+            <div class="logoSection">
+                <a class="logo stack" href="#">
+                    <img class="logoImage" src="images/logo.webp" alt="StringLab logo">
+                    <div class="logoContent stack hidden">
+                        <span class="logoName">StringLab</span>
+                        <span class="logoDesc">String Utility Toolkit</span>
+                    </div>
+                </a>
+                <button class="closeSidebar hidden" aria-label="Close sidebar">
+                    <i data-lucide="panel-right-open"></i>
+                </button>
+            </div>
+
+            <!-----  Navigation menu  ----->
+            <nav class="sidebarNav">
+                <ul>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="house"></i>
+                            <span class="hidden">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="chart-no-axes-column"></i>
+                            <span class="hidden">Analyzer</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="layout-grid"></i>
+                            <span class="hidden">Operations</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="history"></i>
+                            <span class="hidden">History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="star"></i>
+                            <span class="hidden">Favourites</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="stack" href="#">
+                            <i data-lucide="info"></i>
+                            <span class="hidden">About</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="socialLinks hidden">
+            <p>&copy; 2026 StringLab</p>
+            <p>All right reserved</p>
+            <!-- 1. GitHub Icon -->
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <svg class="social-icon github" viewBox="0 0 24 24" xmlns="http://w3.org">
+                    <path
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+            </a>
+
+            <!-- 2. LinkedIn Icon -->
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <svg class="social-icon linkedin" viewBox="0 0 24 24" xmlns="http://w3.org">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0h.003z" />
+                </svg>
+            </a>
+
+            <!-- 3. Twitter / X Icon -->
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter X">
+                <svg class="social-icon twitter" viewBox="0 0 24 24" xmlns="http://w3.org">
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+            </a>
+        </div>
+    </aside>
+    <main>
+        <section class="welcomeSection stack">
+            <div class="headingSection stack">
+                <h1>Welcome to StringLab 👋</h1>
+                <p>Transform, analyze, and optimize your text powerful strong operations.</p>
+            </div>
+            <button class="clearBtn btn" aria-label="Clear All button">
+                <i data-lucide="trash-2"></i>
+                Clear All
+            </button>
+        </section>
+        <section class="heroSection stack">
+            <div class="toolsSection stack">
+                <div class="heroBox stack">
+                    <div class="textareaSection box stack">
+                        <div class="iconHeading">
+                            <i class="textIcon" data-lucide="notebook-pen"></i>
+                            <h2>Enter your text</h2>
+                        </div>
+                        <p>Type or paste any text below to get started</p>
+                        <textarea id="userText" class="userTextResult"
+                            placeholder="Enter your text here ....."></textarea>
+                        <div class="textActions">
+                            <select id="sampleTextDecoration" class="selectOpt btn">
+                                <option selected disabled>Select Sample Text</option>
+                                <option value="para1">Paragraph 1</option>
+                                <option value="para2">Paragraph 2</option>
+                                <option value="para3">Paragraph 3</option>
+                                <option value="para4">Paragraph 4</option>
+                                <option value="para4">Random</option>
+                                <option value="">Custom</option>
+                            </select>
+                            <select id="operation" class="selectOpt btn">
+                                <option value="" selected disabled>Operators</option>
+                                <option value="upperCase">Uppercase</option>
+                                <option value="lowerCase">LowerCase</option>
+                                <option value="capitalize">Capitalize</option>
+                                <option value="trim">Trim</option>
+                                <option value="replace">Replace</option>
+                                <option value="reverse">Reverse</option>
+                                <option value="includes">Includes</option>
+                                <option value="split">Split</option>
+                                <option value="original">Original</option>
+                            </select>
+                            <button class="analyzeBtn btn" aria-label="Analyze button">
+                                <i data-lucide="activity"></i>
+                                Analyze String
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="stringOverview box stack">
+                    <div class="iconHeading">
+                        <i class="overviewIcon" data-lucide="chart-no-axes-column"></i>
+                        <h2>String Overview</h2>
+                        <p>Quick statistics about your text</p>
+                    </div>
+                    <div class="smallBoxes">
+                        <div class="boxes">
+                            <div class="boxIcon chrIcon">
+                                <i data-lucide="case-sensitive"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong class="character overviewStrong">-</strong>
+                                <span>Characters</span>
+                            </div>
+                        </div>
+                        <div class="boxes">
+                            <div class="boxIcon wordIcon">
+                                <i class="wordIcon" data-lucide="whole-word"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong class="word overviewStrong">-</strong>
+                                <span>Words</span>
+                            </div>
+                        </div>
+                        <div class="boxes vowelBox">
+                            <div class="boxIcon vowelIcon">
+                                ae
+                            </div>
+                            <div class="boxContent stack">
+                                <strong class="vowels overviewStrong">-</strong>
+                                <span>Vowels</span>
+                            </div>
+                        </div>
+                        <div class="boxes spacesBox">
+                            <div class="boxIcon spaceIcon">
+                                <i data-lucide="space"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong class="spaces overviewStrong">-</strong>
+                                <span>Spaces</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stringOperations box stack">
+                    <div class="iconHeading">
+                        <i class="operatorsIcon" data-lucide="flower"></i>
+                        <h2>String Operators</h2>
+                        <p>Choose an operation to transform your text</p>
+                    </div>
+                    <div class="smallBoxes">
+                        <div class="boxes">
+                            <div class="boxIcon chrIcon">
+                                <i data-lucide="case-upper"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Uppercase</strong>
+                                <span class="strBio">Convert text to UPPERCASE </span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes">
+                            <div class="boxIcon wordIcon">
+                                <i data-lucide="case-lower"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Lowercase</strong>
+                                <span class="strBio">Convert text to lowercase </span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes vowelBox">
+                            <div class="boxIcon vowelIcon">
+                                <i data-lucide="repeat"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Reverse</strong>
+                                <span class="strBio">Reverse the string</span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes spacesBox">
+                            <div class="boxIcon spaceIcon">
+                                <i data-lucide="case-sensitive"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Capitalize</strong>
+                                <span class="strBio">Capitalize each word</span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes vowelBox">
+                            <div class="boxIcon vowelIcon">
+                                <i data-lucide="square-bottom-dashed-scissors"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Trim</strong>
+                                <span class="strBio">Remove leading & trailing spaces</span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes">
+                            <div class="boxIcon">
+                                <i data-lucide="replace"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Replace</strong>
+                                <span class="strBio">Find and replace text</span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes">
+                            <div class="boxIcon chrIcon">
+                                <i data-lucide="search"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong>Includes</strong>
+                                <span class="strBio">Check if text includes</span>
+                            </div>
+                            <div>&gt;</div>
+                        </div>
+                        <div class="boxes">
+                            <div class="boxIcon">
+                                <i data-lucide="case-upper"></i>
+                            </div>
+                            <div class="boxContent stack">
+                                <strong class="character">Split</strong>
+                                <span class="strBio">split into array of words</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resultAnalysis">
+                <div class="vowelResult box stack">
+                    <div class="iconHeading">
+                        <i class="vowresIcon" data-lucide="activity"></i>
+                        <h2>Vowel Analysis</h2>
+                    </div>
+                    <div class="vowBox stack">
+                        <strong class="vowelAnalytics overviewStrong">-</strong>
+                        <p>Vowels Found</p>
+                        <p class="vowelRepeatation">Vowel Repeatation</p>
+                    </div>
+                </div>
+                <div class="operationResult box stack">
+                    <div class="iconHeading">
+                        <i class="resIcon" data-lucide="sparkles"></i>
+                        <h2>Operation Result</h2>
+                        <p>Your result will appear here</p>
+                    </div>
+                    <div id="resultText" class="resultArea stack">
+                        <div class="console">
+                            <div class="consoleBar">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="consoleBody">
+                                &lt; / &gt;
+                            </div>
+                        </div>
+                        <h3>No operation yet</h3>
+                        <p>Select an operation from the left or above to see the result.</p>
+                    </div>
+                    <button resultText="resultText" class="copyBtn btn">Copy Result</button>
+                </div>
+                <div class="recentHistory box stack">
+                    <div class="iconHeading">
+                        <i data-lucide="history"></i>
+                        <h2>Recent History</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
