@@ -22,6 +22,27 @@
     box-sizing: border-box;
 }
 
+.pageLoader{
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg-app);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    z-index: 999;
+}
+
+.spinner{
+    width: 50px;
+    aspect-ratio: 1;
+    border: 5px solid var(--bg-sidebar-hover);
+    border-top: 5px solid var(--text-brand-sub);
+    border-radius: 50%;
+    animation: spinner .8s linear infinite;
+}
+
 body {
     font-family: var(--font-main);
     background-color: var(--bg-app);
@@ -179,4 +200,10 @@ ul>li>a.stack:focus {
 /* Hover effect */
 .social-icon:hover {
     opacity: 0.8;
+}
+
+@keyframes spinner {
+    100% {
+        rotate: 360deg;
+    }
 }

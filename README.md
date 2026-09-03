@@ -25,6 +25,12 @@ Built as Project 4 of a 12-project vanilla JavaScript practice roadmap.
 - **Responsive Layout** — adapts from mobile to desktop
 
 ---
+ 
+## Live Demo
+
+- [Click here](https://string-lab-web-app.vercel.app/)
+
+---
 
 ## Tech Stack
 
@@ -57,7 +63,7 @@ No installation or build tools required — it's a static site.
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/Anees-ul-rehman-1/StringLab.git
+   https://github.com/Anees-ul-rehman-1/stringLab-webApp.git
    ```
 2. Open `index.html` in your browser
 
@@ -86,9 +92,7 @@ This project is part of a self-directed **12-project JavaScript practice roadmap
 
 ## Author
 
-**Anees Ul Rehman**
-
-- GitHub: https://github.com/Anees-ul-rehman-1
+[Anees Ul Rehman]( https://github.com/Anees-ul-rehman-1)
 
 ---
 

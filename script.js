@@ -18,6 +18,23 @@ const heroBox = document.querySelector('.heroBox');
 const oldResbox = document.querySelector('.resultArea');
 let oldResult = oldResbox.innerHTML;
 
+
+// loader timing 
+const loadStartTime = performance.now();
+const pageLoaderFun = () => {
+    const minimumTiming = 1000;
+    const loadEndTime = performance.now();
+    const actualLoadTime = loadEndTime - loadStartTime;
+
+    const remainingTime = Math.max(0, minimumTiming - actualLoadTime);
+
+    setTimeout(() => {
+        const pageLoader = document.querySelector('.pageLoader');
+        if (pageLoader) pageLoader.remove();
+    }, remainingTime);
+}
+document.addEventListener('DOMContentLoaded', pageLoaderFun)
+
 // open sidebar Navigation 
 aside.addEventListener('click', () => {
     if (!aside.classList.contains('expanded')) {
